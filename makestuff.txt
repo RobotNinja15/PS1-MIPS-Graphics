@@ -1,0 +1,5 @@
+build:
+	~/armips/build/armips factorial.s
+
+exe:
+	python3 bin2exe.py factorial.bin factorial.ps-exe
